@@ -32,8 +32,8 @@ btn.addEventListener("click", function () {
 })
 
 function render() {
-    lengthOutput.textContent += `${val} meters = ${lengthfeet.toFixed(3)} feet | ${val} feet = ${lengthmeter.toFixed(3)} meters`
-    volumeOutput.textContent += `${val} liters = ${volumegallons.toFixed(3)} gallons | ${val} gallons = ${volumeliter.toFixed(3)} liters`
-    massOutput.textContent += `${val} kilos = ${masspounds.toFixed(3)} pounds | ${val} pounds = ${masskilo.toFixed(3)} kilos`
+    lengthOutput.textContent = `${val} meters = ${lengthfeet.toFixed(3)} feet | ${val} feet = ${lengthmeter.toFixed(3)} meters`
+    volumeOutput.textContent = `${val} liters = ${volumegallons.toFixed(3)} gallons | ${val} gallons = ${volumeliter.toFixed(3)} liters`
+    massOutput.textContent = `${val} kilos = ${masspounds.toFixed(3)} pounds | ${val} pounds = ${masskilo.toFixed(3)} kilos`
 }
 
